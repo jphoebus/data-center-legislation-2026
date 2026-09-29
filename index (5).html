@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What states changed on data centers in 2026</title>
+<meta name="description" content="How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in 2026, through legislatures, governors, utility regulators, and local governments.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1b2733;
+    --text: #3a4552;
+    --muted: #66717d;
+    --paper: #f7f8fa;
+    --card: #ffffff;
+    --rule: #d5dae0;
+    --enacted: #2e6b57;
+    --exec: #8a5a12;
+    --reg: #2f5e8c;
+    --pending: #6b7280;
+    --local: #6e3f68;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--text);
+    font-family: "Public Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  a { color: var(--reg); }
+  a:focus-visible { outline: 3px solid var(--reg); outline-offset: 2px; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 48px 24px 72px; }
+  .prose { max-width: 70ch; }
+  h1 {
+    color: var(--ink);
+    font-weight: 800;
+    font-size: clamp(2rem, 4.6vw, 3.2rem);
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px;
+    max-width: 20ch;
+  }
+  .dek { font-size: 1.15rem; color: var(--ink); margin: 0 0 8px; }
+  .asof { color: var(--muted); font-size: 0.95rem; margin: 0 0 28px; }
+  h2 { color: var(--ink); font-size: 1.45rem; font-weight: 800; margin: 56px 0 12px; }
+  h3 { color: var(--ink); font-size: 1.08rem; font-weight: 800; margin: 24px 0 6px; }
+
+  /* The route matrix: the one bold element */
+  .legend { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 16px 0 12px; font-size: 0.9rem; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .dot { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+  .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid var(--rule); border-radius: 6px; background: var(--card); }
+  table { border-collapse: collapse; width: 100%; min-width: 860px; font-size: 0.93rem; }
+  th, td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--rule); }
+  thead th { color: var(--ink); font-weight: 800; background: #eef1f4; position: sticky; top: 0; }
+  tbody th { color: var(--ink); font-weight: 800; width: 150px; background: #fbfcfd; }
+  tr:last-child th, tr:last-child td { border-bottom: 0; }
+  .route td { border-left: 6px solid transparent; }
+  .route td.enacted { border-left-color: var(--enacted); }
+  .route td.exec { border-left-color: var(--exec); }
+  .route td.reg { border-left-color: var(--reg); }
+  .route td.pending { border-left-color: var(--pending); }
+  .route td.local { border-left-color: var(--local); }
+  .route td.none { border-left-color: #e3e7eb; color: var(--muted); }
+  .tag { display: block; font-weight: 800; font-size: 0.82rem; margin-bottom: 4px; }
+  .enacted .tag { color: var(--enacted); }
+  .exec .tag { color: var(--exec); }
+  .reg .tag { color: var(--reg); }
+  .pending .tag { color: var(--pending); }
+  .local .tag { color: var(--local); }
+  .none .tag { color: var(--muted); }
+
+  .findings p { margin: 0 0 14px; }
+  ul.watch { padding-left: 1.1em; margin: 8px 0 0; }
+  ul.watch li { margin-bottom: 8px; }
+  .sources { font-size: 0.9rem; }
+  .sources li { margin-bottom: 4px; overflow-wrap: anywhere; }
+  footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--rule); font-size: 0.93rem; color: var(--muted); }
+  @media (max-width: 640px) {
+    .wrap { padding: 32px 16px 56px; }
+    body { font-size: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header class="prose">
+  <h1>What states changed on data centers in 2026</h1>
+  <p class="dek">Five states, four venues: legislatures, governors, utility regulators, and local governments. Each state moved, and each moved through a different door.</p>
+  <p class="asof">Current as of September 29, 2026. Covers Pennsylvania, Virginia, Ohio, Maryland, and Georgia, the same five states as the <a href="https://jphoebus.github.io/state-incentive-comparison/">data center incentive comparison</a>.</p>
+</header>
+
+<section class="prose">
+  <p>The <a href="https://jphoebus.github.io/state-incentive-comparison/">first comparison</a> looked at what these states give data centers. The <a href="https://jphoebus.github.io/tax-incentive-evaluation/">second</a> looked at whether states check what they give. This one looks at what changed in 2026, and where the change came from.</p>
+</section>
+
+<h2>Where each state acted</h2>
+<div class="legend" aria-label="Legend">
+  <span><i class="dot" style="background:var(--enacted)"></i>Enacted by the legislature</span>
+  <span><i class="dot" style="background:var(--exec)"></i>Governor's executive action</span>
+  <span><i class="dot" style="background:var(--reg)"></i>Utility regulator action</span>
+  <span><i class="dot" style="background:var(--local)"></i>Local government action</span>
+  <span><i class="dot" style="background:var(--pending)"></i>Pending or no final action</span>
+</div>
+<div class="scroll" role="region" aria-label="Where each state acted, by venue" tabindex="0">
+<table class="route">
+  <thead><tr><th scope="col">State</th><th scope="col">Legislature</th><th scope="col">Governor</th><th scope="col">Utility regulator</th><th scope="col">Local government</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Pennsylvania</th>
+      <td class="pending"><span class="tag">Passed one chamber</span>House voted 197&ndash;5 to repeal the sales tax exemption and passed a PUC cost-allocation bill (HB&nbsp;1834). Senate has not agreed.</td>
+      <td class="exec"><span class="tag">Executive order, Aug.&nbsp;18</span>EO 2026-05 ties state permit review and new exemption applications to the GRID Requirements.</td>
+      <td class="none"><span class="tag">No data center tariff identified</span>HB&nbsp;1834 would direct the PUC to assign costs to data centers.</td>
+      <td class="pending"><span class="tag">Pending</span>House passed a bill letting municipalities pause applications for up to 180 days.</td></tr>
+    <tr><th scope="row">Virginia</th>
+      <td class="enacted"><span class="tag">Enacted</span>About 15 bills plus the budget: a $0.011/kWh consumption tax, 25&nbsp;MW cost allocation, siting disclosure, generator and water rules. Exemption preserved.</td>
+      <td class="exec"><span class="tag">Executive order, Sept.&nbsp;18</span>Data Center Accountability Framework and EO&nbsp;22.</td>
+      <td class="reg"><span class="tag">Reporting due Oct.&nbsp;1</span>SCC's first annual data center electricity, water, and generator report.</td>
+      <td class="local"><span class="tag">New state rules for local votes</span>Developers of the largest facilities must disclose more before a local board votes.</td></tr>
+    <tr><th scope="row">Ohio</th>
+      <td class="pending"><span class="tag">Introduced; study committee</span>Bills to extend the AEP tariff statewide and a broad Senate bill. Joint Data Center Committee studying.</td>
+      <td class="exec"><span class="tag">Directive, May&nbsp;27</span>Pause on new sales tax exemption requests at the Tax Credit Authority.</td>
+      <td class="reg"><span class="tag">Approved 2025; under appeal</span>AEP Ohio tariff: new data centers pay for at least 85% of requested load.</td>
+      <td class="none"><span class="tag">Statewide proposal</span>A citizen group has proposed a constitutional amendment to ban very large AI data centers.</td></tr>
+    <tr><th scope="row">Maryland</th>
+      <td class="enacted"><span class="tag">Enacted</span>Utility RELIEF Act of 2026: large load definition, cost allocation, reporting. Exemption repeal planned for 2027.</td>
+      <td class="exec"><span class="tag">Executive order, Sept.&nbsp;23</span>Single review for 25&nbsp;MW and up, state task force, public dashboard, no agency NDAs.</td>
+      <td class="reg"><span class="tag">Pending</span>Large load tariff proceeding for BGE, Pepco, and Delmarva before the PSC.</td>
+      <td class="local"><span class="tag">Moratoriums and bans</span>14 of 24 jurisdictions, including Harford County's indefinite ban.</td></tr>
+    <tr><th scope="row">Georgia</th>
+      <td class="pending"><span class="tag">No final action</span>Senate passed exemption repeal; House passed HB&nbsp;1063 159&ndash;5. Neither became law.</td>
+      <td class="none"><span class="tag">None identified</span>No 2026 executive action found.</td>
+      <td class="reg"><span class="tag">Rules in effect</span>Custom contracts for 100&nbsp;MW and up; about 10,000&nbsp;MW of new generation approved; base rates frozen through 2028.</td>
+      <td class="none"><span class="tag">PSC elections Nov.&nbsp;3</span>Data center costs are a central issue in two statewide races.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2>By issue</h2>
+<div class="scroll" role="region" aria-label="Actions by issue and state" tabindex="0">
+<table>
+  <thead><tr><th scope="col">Issue</th><th scope="col">Pennsylvania</th><th scope="col">Virginia</th><th scope="col">Ohio</th><th scope="col">Maryland</th><th scope="col">Georgia</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Sales tax exemption</th>
+      <td>Still in effect. House passed repeal 197&ndash;5 on June&nbsp;25; the Senate passed repeal language in a separate bill; neither reached the governor. EO 2026-05 makes new applicants meet the GRID Requirements.</td>
+      <td>Preserved in the 2026&ndash;28 budget. Joint Subcommittee on Tax Policy to report on the exemption by mid-December.</td>
+      <td>Governor paused new exemption requests on May&nbsp;27 while the Joint Data Center Committee studies growth.</td>
+      <td>2020 exemption remains. Governor will seek repeal in the 2027 session.</td>
+      <td>Left intact in 2026. Senate passed a repeal bill on March&nbsp;6; the session ended without final action.</td></tr>
+    <tr><th scope="row">New taxes or fees</th>
+      <td>None enacted.</td>
+      <td>$0.011 per kWh consumption tax from July&nbsp;1, 2026, capped at $600&nbsp;million a year; expires June&nbsp;30, 2028 unless extended.</td>
+      <td>None enacted.</td>
+      <td>None enacted.</td>
+      <td>None enacted.</td></tr>
+    <tr><th scope="row">Who pays for grid costs</th>
+      <td>HB&nbsp;1834 would have the PUC assign connection, transmission, reliability, and PJM emergency procurement costs to data centers. Passed House; in Senate committee.</td>
+      <td>Costs of new generating capacity assigned to customers of 25&nbsp;MW or more; voluntary demand flexibility programs (HB&nbsp;284).</td>
+      <td>AEP Ohio tariff: 85% minimum on requested load, under appeal at the Ohio Supreme Court. Bills would extend the approach statewide.</td>
+      <td>RELIEF Act assigns infrastructure and grid costs to large load customers. Executive order seeks minimum bills, exit fees, and collateral at the PSC, PJM, and FERC.</td>
+      <td>PSC requires custom contracts for 100&nbsp;MW and up and cost studies to protect other customers. HB&nbsp;1063 passed the House but did not become law.</td></tr>
+    <tr><th scope="row">Siting and local approval</th>
+      <td>DEP reviews data center permits only with a binding commitment to the GRID Requirements. Municipal pause bill passed the House.</td>
+      <td>New siting and pre-vote disclosure law for the largest facilities, effective July&nbsp;1, 2026 (Va. Code &sect;&nbsp;15.2-2209.5).</td>
+      <td>Senate bill would address local government impacts. Constitutional amendment proposed.</td>
+      <td>State agencies defer review until local land use approvals are documented. 14 of 24 jurisdictions have moratoriums or bans.</td>
+      <td>No statewide siting change identified.</td></tr>
+    <tr><th scope="row">Water</th>
+      <td>HB&nbsp;2246 would create DEP water permitting and reporting. Reporting may have been enacted through budget implementation (see below).</td>
+      <td>Water reporting from January&nbsp;1, 2027; scarcity-area cooling rules due July&nbsp;1, 2027; budget requires limits on cooling water use.</td>
+      <td>Senate bill would address water use and testing.</td>
+      <td>Covered in the executive order's environmental criteria.</td>
+      <td>No statewide change identified.</td></tr>
+    <tr><th scope="row">Transparency</th>
+      <td>EO 2026-05 includes transparency provisions for data center development.</td>
+      <td>SCC annual report on data center electricity, water, and generators, first due October&nbsp;1, 2026.</td>
+      <td>Senate bill would address nondisclosure agreements.</td>
+      <td>State agencies may not enter NDAs with data center developers; public dashboard for every project of 25&nbsp;MW or more.</td>
+      <td>PSC requires quarterly reporting from Georgia Power.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<section class="findings prose">
+<h2>What stands out</h2>
+<h3>Governors moved faster than legislatures</h3>
+<p>Four of the five governors acted outside the legislative process in 2026: executive orders in Pennsylvania, Virginia, and Maryland, and a directive pausing new exemptions in Ohio. Legislatures enacted broad changes in two states, Virginia and Maryland. In Pennsylvania and Georgia, one chamber acted and the other did not agree.</p>
+<h3>The exemptions survived, with strings</h3>
+<p>No state repealed its data center sales tax exemption in 2026. Instead, states attached conditions or added costs around it: a consumption tax in Virginia, GRID Requirements for new applicants in Pennsylvania, a pause in Ohio, and a repeal effort set for 2027 in Maryland.</p>
+<h3>Cost allocation is converging on the same tools</h3>
+<p>Whether by statute, tariff, or executive order, states are reaching for similar mechanisms: size thresholds of 25 or 100 megawatts, minimum bills, long-term contracts, exit fees, and collateral. What differs is who sets them. The durability of each approach will be tested in court in Ohio and at PJM, where Pennsylvania, Virginia, Ohio, and Maryland all sit.</p>
+<p>The question I expect to shape 2027: how much of this year's change holds when it rests on executive action rather than statute. An executive order can be revised by the next governor; a law has to be amended by the next legislature.</p>
+</section>
+
+<section class="prose">
+<h2>What to watch</h2>
+<ul class="watch">
+  <li><strong>October 1, 2026:</strong> Virginia SCC's first annual report on data center electricity, water, and generator data.</li>
+  <li><strong>Fall 2026:</strong> Pennsylvania Senate session, with HB&nbsp;1834 and exemption repeal still open.</li>
+  <li><strong>November 3, 2026:</strong> Georgia Public Service Commission elections.</li>
+  <li><strong>Mid-December 2026:</strong> Virginia Joint Subcommittee on Tax Policy recommendations on the exemption.</li>
+  <li><strong>January 2027:</strong> Maryland's exemption repeal effort; Virginia's 46 carried-over data center bills; Virginia water reporting takes effect.</li>
+  <li><strong>Ongoing:</strong> Ohio Supreme Court review of the AEP tariff; Maryland PSC large load tariff decision.</li>
+</ul>
+
+<h2>Still to verify</h2>
+<ul class="watch">
+  <li>Pennsylvania: whether data center energy and water reporting was enacted through FY&nbsp;2026&ndash;27 budget implementation, and under which bill.</li>
+  <li>Pennsylvania: bill number and vote for the municipal pause bill (reported as HB&nbsp;2496).</li>
+  <li>Pennsylvania: exact transparency and nondisclosure provisions in EO 2026-05.</li>
+  <li>Ohio: current status of the House and Senate data center bills.</li>
+  <li>Georgia: local moratoriums, if any.</li>
+</ul>
+</section>
+
+<section class="sources prose">
+<h2>Sources</h2>
+<h3>Pennsylvania</h3>
+<ul>
+  <li><a href="https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen">Office of the Governor, Executive Order 2026-05 announcement (Aug. 18, 2026)</a></li>
+  <li><a href="https://penncapital-star.com/economy/pa-house-passes-data-center-pause-along-with-shapiros-plan-for-responsible-development/">Pennsylvania Capital-Star (June 25, 2026)</a></li>
+  <li><a href="https://www.cityandstatepa.com/policy/2026/03/pa-house-lawmakers-approve-data-center-regulation-bill/412346/">City &amp; State Pennsylvania, HB 1834 (March 24, 2026)</a></li>
+  <li><a href="https://legiscan.com/PA/bill/HB1834/2025">LegiScan, HB 1834 status</a></li>
+  <li><a href="https://pennfuture.org/Data-Center-Legislation-Tracker">PennFuture data center legislation tracker</a></li>
+</ul>
+<h3>Virginia</h3>
+<ul>
+  <li><a href="https://www.whitefordlaw.com/news-events/client-alert-update-virginia-enacts-energy-consumption-tax-on-data-centers-and-signs-broader-energy-affordability-package">Whiteford, consumption tax and budget</a></li>
+  <li><a href="https://www.arlnow.com/2026/06/22/virginia-legislators-propose-new-tax-on-data-centers-power-usage-to-break-budget-deadlock/">ARLnow (June 22, 2026)</a></li>
+  <li><a href="https://www.multistate.us/insider/2026/3/30/virginia-lawmakers-pass-15-data-center-bills-as-tax-exemption-fight-looms">MultiState (March 30, 2026)</a></li>
+  <li><a href="https://natlawreview.com/article/2026-virginia-environmental-legislative-update-data-centers">National Law Review, environmental update</a></li>
+  <li><a href="https://www.roanokerambler.com/a-roanoke-delegate-helped-write-virginias-new-data-center-law-heres-what-it-does-and-what-it-doesnt/">Roanoke Rambler, siting law</a></li>
+  <li><a href="https://www.governor.virginia.gov/newsroom/news-releases/2026/september-releases/name-1123696-en.html">Office of the Governor, Data Center Accountability Framework (Sept. 18, 2026)</a></li>
+</ul>
+<h3>Ohio</h3>
+<ul>
+  <li><a href="https://governor.ohio.gov/media/news-and-media/governor-dewine-announces-pause-of-data-center-tax-exemption">Office of the Governor, exemption pause (May 27, 2026)</a></li>
+  <li><a href="https://www.wosu.org/2026-03-02/ohio-house-bill-would-extend-data-center-tariff-to-rest-of-state">WOSU, AEP tariff and House bill (March 2026)</a></li>
+  <li><a href="https://ohiocapitaljournal.com/2026/06/10/ohio-lawmakers-introduce-sweeping-new-data-center-legislation/">Ohio Capital Journal, Senate bill (June 10, 2026)</a></li>
+</ul>
+<h3>Maryland</h3>
+<ul>
+  <li><a href="https://governor.maryland.gov/news/press-releases/governor-moore-signs-executive-order-codifying-responsible-data-center-development-framework">Office of the Governor, executive order (Sept. 23, 2026)</a></li>
+  <li><a href="https://marylandmatters.org/2026/09/23/data-centers-moore-executive-order/">Maryland Matters (Sept. 23, 2026)</a></li>
+  <li><a href="https://thedailyrecord.com/2026/09/23/moore-executive-order-maryland-data-center-review/">The Daily Record, RELIEF Act context</a></li>
+  <li><a href="https://mdbaynews.com/2026/09/23/wes-moore-maryland-data-center-review-dashboard/">Maryland Bay News, local moratoriums</a></li>
+  <li><a href="https://dailyenergyinsider.com/news/53895-maryland-gov-moore-issues-order-to-oversee-regulate-data-center-development/">Daily Energy Insider, PSC tariff proceeding</a></li>
+</ul>
+<h3>Georgia</h3>
+<ul>
+  <li><a href="https://georgiawatch.org/georgia-lawmakers-leave-data-center-tax-breaks-intact-punt-on-energy-costs/">Georgia Watch (April 7, 2026)</a></li>
+  <li><a href="https://computelaw.blog/power/georgia-power-psc-data-center-rules/">Compute Law Blog, PSC rules</a></li>
+  <li><a href="https://psc.ga.gov/site/downloads/datacenterfactsheet.pdf">Georgia PSC data center fact sheet (March 2026)</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/2026_Georgia_Public_Service_Commission_election">2026 Georgia PSC election</a></li>
+</ul>
+</section>
+
+<footer class="prose">
+  <p>Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. <a href="https://www.linkedin.com/in/joshuaphoebus">LinkedIn</a> &middot; <a href="https://www.joshuaphoebusllc.com">Website</a></p>
+  <p>Underlying data: <a href="data-center-legislation-2026.csv">data-center-legislation-2026.csv</a>. Where a detail could not be confirmed, it is listed under Still to verify. This comparison is for policy analysis and is not legal advice.</p>
+</footer>
+
+</main>
+</body>
+</html>
