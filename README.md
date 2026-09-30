@@ -15,6 +15,17 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 - **The exemptions survived, with strings.** No state repealed its data center sales tax exemption; states attached conditions or added costs instead.
 - **Cost allocation is converging on the same tools** — size thresholds, minimum bills, long-term contracts, exit fees, and collateral — set by different bodies in each state.
 
+## What to watch
+
+- **October 1, 2026:** Virginia SCC's first annual report on data center electricity, water, and generator data.
+- **Fall 2026:** Pennsylvania Senate session, with HB 1834 and exemption repeal still open.
+- **Fall 2026:** Pennsylvania's Senate has not yet voted on HB 2496, which would let municipalities pause data center applications for up to 180 days.
+- **November 3, 2026:** Georgia Public Service Commission elections.
+- **After November 3, 2026:** Ohio's Substitute HB 646, which would cut new data center sales tax exemptions to 50% and create a data center rate class, is expected to return after the November election.
+- **Mid-December 2026:** Virginia Joint Subcommittee on Tax Policy recommendations on the exemption.
+- **January 2027:** Maryland's exemption repeal effort; Virginia's 46 carried-over data center bills; Virginia water reporting takes effect.
+- **Ongoing:** Ohio Supreme Court review of the AEP tariff; Maryland PSC large load tariff decision.
+
 ## Related comparisons
 
 - [What states give data centers](https://jphoebus.github.io/state-incentive-comparison/) — five-state comparison of data center sales tax exemptions
