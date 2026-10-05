@@ -17,7 +17,7 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 
 ## What to watch
 
-- **October 1, 2026:** Virginia SCC's first annual report on data center electricity, water, and generator data.
+- **October 15, 2026:** Virginia DEQ's retrofitting study for existing data centers in the Eastern Virginia Groundwater Management Area.
 - **Fall 2026:** Pennsylvania Senate session, with HB 1834 and exemption repeal still open.
 - **Fall 2026:** Pennsylvania's Senate has not yet voted on HB 2496, which would let municipalities pause data center applications for up to 180 days.
 - **November 3, 2026:** Georgia Public Service Commission elections.
@@ -34,4 +34,4 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 
 ## About
 
-Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. Current as of September 29, 2026. For policy analysis only; not legal advice.
+Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. Current as of October 5, 2026. For policy analysis only; not legal advice.
