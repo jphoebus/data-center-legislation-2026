@@ -29,6 +29,7 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 ## Related comparisons
 
 - [State data center incentives, compared](https://jphoebus.github.io/state-incentive-comparison/)
+- [What counts as exempt data center equipment](https://jphoebus.github.io/data-center-exempt-equipment/)
 - [How states check their tax incentives](https://jphoebus.github.io/tax-incentive-evaluation/)
 - [DOE's SPARK grid selections, tracked](https://jphoebus.github.io/spark-grid-tracker/)
 
