@@ -33,6 +33,7 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 - [How states check their tax incentives](https://jphoebus.github.io/tax-incentive-evaluation/)
 - [DOE's SPARK grid selections, tracked](https://jphoebus.github.io/spark-grid-tracker/)
 - [Who pays for data center power](https://jphoebus.github.io/large-load-tariffs/)
+- [Are state rules ready for quantum computing?](https://jphoebus.github.io/quantum-readiness/)
 
 ## About
 
