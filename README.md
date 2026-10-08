@@ -38,4 +38,4 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 
 ## About
 
-Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. Current as of October 7, 2026. For policy analysis only; not legal advice.
+Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. Current as of October 8, 2026. For policy analysis only; not legal advice.
