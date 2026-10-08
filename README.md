@@ -19,7 +19,7 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 
 - **October 15, 2026:** Virginia DEQ's retrofitting study for existing data centers in the Eastern Virginia Groundwater Management Area.
 - **Fall 2026:** Pennsylvania Senate session, with HB 1834 and exemption repeal still open.
-- **Fall 2026:** Pennsylvania's Senate has not yet voted on HB 2496, which would let municipalities pause data center applications for up to 180 days.
+- **Fall 2026:** Whether the Pennsylvania Senate acts on local pause authority. HB 2496 (180 days) and SB 1345 (18 months) are both in Senate Rules & Executive Nominations; SB 1359 (three-year statewide moratorium) remains in committee.
 - **November 3, 2026:** Georgia Public Service Commission elections.
 - **After November 3, 2026:** Ohio's Substitute HB 646, which would cut new data center sales tax exemptions to 50% and create a data center rate class, is expected to return after the November election.
 - **November 17, 2026:** SCC evidentiary hearing on NextEra's proposed acquisition of Dominion Energy.
@@ -38,4 +38,4 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 
 ## About
 
-Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. Current as of October 7, 2026. For policy analysis only; not legal advice.
+Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. Current as of October 8, 2026. For policy analysis only; not legal advice.
