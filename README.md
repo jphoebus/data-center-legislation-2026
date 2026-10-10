@@ -4,6 +4,8 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 
 **Live page:** https://jphoebus.github.io/data-center-legislation-2026/
 
+**All projects:** [jphoebus.github.io](https://jphoebus.github.io/)
+
 ## What's here
 
 - `index.html` — the comparison: where each state acted, a side-by-side by issue (sales tax exemptions, new taxes, grid cost allocation, siting, water, transparency), what stands out, and what to watch.
