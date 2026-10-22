@@ -25,6 +25,7 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 - **November 3, 2026:** Georgia Public Service Commission elections.
 - **After November 3, 2026:** Ohio's Substitute HB 646, which would cut new data center sales tax exemptions to 50% and create a data center rate class, is expected to return after the November election.
 - **November 17, 2026:** SCC evidentiary hearing on NextEra's proposed acquisition of Dominion Energy.
+- **January 2027:** SCC decision on the NextEra–Dominion merger expected (as reported).
 - **Mid-December 2026:** Virginia Joint Subcommittee on Tax Policy recommendations on the exemption.
 - **January 2027:** Maryland's exemption repeal effort; Virginia's 46 carried-over data center bills; Virginia water reporting takes effect.
 - **January 13, 2027:** Virginia's General Assembly convenes with several data center moratorium bills filed. SB 843 (Sens. Russet Perry and Danica Roem) would bar localities, DEQ and the SCC from approving data center permits statewide from July 2027 to July 2030. A separate Roem bill would pause new approvals until data centers already in Dominion's queue are energized. A House bill carried over from 2026 (Del. Irene Shin) would pause local approvals until pending data center service requests are met or July 2028. Sen. Glen Sturtevant plans his own version (as reported).
