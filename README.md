@@ -30,6 +30,7 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 - **January 2027:** SCC decision on the NextEra–Dominion merger expected (as reported).
 - **January 13, 2027:** Virginia's General Assembly convenes with several data center moratorium bills filed. SB 843 (Sens. Russet Perry and Danica Roem) would bar localities, DEQ and the SCC from approving data center permits statewide from July 2027 to July 2030. A separate Roem bill would pause new approvals until data centers already in Dominion's queue are energized. A House bill carried over from 2026 (Del. Irene Shin) would pause local approvals until pending data center service requests are met or July 2028. Sen. Glen Sturtevant plans his own version (as reported).
 - **Ongoing:** Ohio Supreme Court review of the AEP tariff; Maryland PSC large load tariff decision.
+- **Pending:** DCED guidance for local governments on community benefit agreements, directed by Executive Order 2026-05; DCED said in October it hopes to release it ‘soon’ (as reported).
 
 ## Related comparisons
 
