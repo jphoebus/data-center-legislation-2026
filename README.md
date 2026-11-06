@@ -25,7 +25,7 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 - **November 17-18, 2026:** Pennsylvania Senate voting days. Whether the Senate acts on local pause authority: HB 2496 (180 days) and SB 1345 (18 months) are both in Senate Rules & Executive Nominations; SB 1359 (three-year statewide moratorium) remains in committee.
 - **November 17, 2026:** SCC evidentiary hearing on NextEra's proposed acquisition of Dominion Energy.
 - **Mid-December 2026:** Virginia Joint Subcommittee on Tax Policy recommendations on the exemption.
-- **2027 session:** In Pennsylvania, Democrats will hold both chambers and the governorship (as reported). Democratic leaders have listed data center guardrails among their priorities (as reported); no bill text or timing has been announced.
+- **2027 session:** In Pennsylvania, the same party will hold both chambers and the governorship (as reported). Incoming Senate leadership has listed data center guardrails among its priorities (as reported); no bill text or timing has been announced.
 - **January 2027:** Maryland's exemption repeal effort; Virginia's 46 carried-over data center bills; Virginia water reporting takes effect.
 - **January 2027:** SCC decision on the NextEra–Dominion merger expected (as reported).
 - **January 13, 2027:** Virginia's General Assembly convenes with several data center moratorium bills filed. SB 843 (Sens. Russet Perry and Danica Roem) would bar localities, DEQ and the SCC from approving data center permits statewide from July 2027 to July 2030. A separate Roem bill would pause new approvals until data centers already in Dominion's queue are energized. A House bill carried over from 2026 (Del. Irene Shin) would pause local approvals until pending data center service requests are met or July 2028. Sen. Glen Sturtevant plans his own version (as reported).
@@ -44,4 +44,4 @@ How Pennsylvania, Virginia, Ohio, Maryland, and Georgia acted on data centers in
 
 ## About
 
-Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. Current as of November 5, 2026. For policy analysis only; not legal advice.
+Compiled by Joshua Phoebus, former Director of Performance and Transformation in the Office of Pennsylvania Governor Tom Wolf. Current as of November 6, 2026. For policy analysis only; not legal advice.
